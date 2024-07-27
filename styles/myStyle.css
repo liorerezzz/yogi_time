@@ -1,0 +1,640 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+
+body {
+    width: 1280px;
+    margin: 100px auto;
+    direction: rtl;
+    font-family: Assistant;
+    background-color: #F1F8E8;
+}
+
+/*דף הבית*/
+
+#HomepageBody {
+    width: 1280px;
+    margin: 100px auto;
+    direction: rtl;
+    font-family: Assistant;
+    background-color: #DAD3BE;
+}
+
+#Header7 {
+    background-color: #43766C; /* הדר עמוד בית */
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+}
+
+#HomePageMain {
+    background-color: #DAD3BE; /* באדי עמוד בית */
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+
+
+#nav7 ul li { /*סרגל ניווט*/
+    display: inline-block;
+    background-color: #F1F8E8;
+    color: saddlebrown;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  
+    text-decoration: none;
+    font-size: 1.5vw;
+    text-align: center;
+}
+    #nav7 ul li a { /* סרגל ניווט+תיקון צבע*/
+        display: inline-block;
+        background-color: #F1F8E8;
+        color: #55AD9B;
+        text-decoration: none;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        font-weight: normal;
+    }
+
+        #nav7 ul li ul { /*תפריט ניווט בעת פתיחת דף הבית (לא רואים אותו)*/
+            display: none;
+            position: absolute;
+        }
+
+    #nav7 ul li ul { /* תפריט ניווט בעת פתיחת דף הבית (לא רואים אותו) */
+        display: none;
+        position: absolute;
+    }
+
+    #nav7 ul li:hover ul {
+        display: block;
+    }
+
+    #nav7 ul li:hover, #nav7 ul li a:hover {
+        background-color: #55AD9B;
+        color: #F1F8E8;
+    }
+
+    #nav7 ul li:hover ul {
+        display: block;
+        width: 200px;
+        position: absolute;
+        margin-right:-40px;
+    }
+
+
+       #Footer7 {
+         background-color: #43766C; /* רקע עמוד בית */
+         color: aliceblue;
+         text-align: center;
+         padding: 20px;
+          }
+
+#nav8 ul li { /* סרגל ניווט תחתון*/
+    display: inline-block;
+    background-color: #F1F8E8;
+    color: saddlebrown;
+    width: 220px;
+    height: 40px;
+    padding-top: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Assistant;
+}
+
+
+    #nav8 ul li a { /*סרגל ניווט תחתון+תיקון צבע*/
+        display: inline-block;
+        background-color: #F1F8E8;
+        color: #55AD9B;
+        text-decoration: none;
+        text-align: center;
+        width: 200px;
+        height: 40px;
+        
+    }
+
+ #nav8 ul li:hover, #nav8 ul li a:hover {
+     background-color: #55AD9B;
+     color: #F1F8E8;
+   
+ }
+
+
+#homePageBG {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    position: fixed;
+    padding-top: 300px;
+
+}
+
+#YogiTime { /*Yogi Time*/
+    font-family: Heebo;
+    color: #55AD9B;
+    position: absolute;
+    margin-top: 180px;
+    margin-right: 200px;
+    padding: 0;
+}
+#Studio { /*סטודיו ליוגה*/
+    font-size: 25px;
+    font-family: Heebo;
+    color: #55AD9B;
+    position: absolute;
+    margin-top: 250px;
+    margin-right: 140px;
+    padding: 0;
+}
+
+
+#WhatIsYoga { /*מהי יוגה?*/
+    text-align: right;
+    font-size: 10vw;
+    color: #55AD9B;
+    position: absolute;
+    margin-top: 0px;
+    margin-right:270px;
+}
+
+
+.container7 {
+    max-width: 900px;
+    margin-top: 170px;
+    margin-right: 100px;
+    padding: 30px;
+}
+
+.text-box {
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.rounded-text {
+    background-color: #F8FAE5; 
+    border-radius: 20px;
+    padding: 20px;
+}
+    .rounded-text p {
+        font-size: 18px;
+        color: #55AD9B; 
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+#Pictures{
+    position: relative;
+}
+
+/*אשטנגה*/
+
+#ashBody {
+    width: 1280px;
+    margin: 100px auto;
+    direction: rtl;
+    font-family: Assistant;
+    background-color: #F1F8E8;
+}
+
+.Video iframe /*מבנה סרטונים*/ {
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 200px;
+}
+
+#ashtanga1 /* מיקום סרטון 1 */ {
+    position: absolute;
+    margin-top: 100px;
+
+}
+
+#ashtanga2 /* מיקום סרטון 2 */ {
+    position: absolute;
+    margin-top: 200px;
+ 
+}
+
+main section {
+   display: inline-block;
+   top: 100px;
+  left: 800px;
+   
+}
+
+nav ol li /*תפריט פרורי לחם אופקי*/ {
+    display: inline-block;
+}
+
+nav ol ::after /*תפריט פרורי לחם הוספת <*/ {
+    content: ">";
+}
+
+nav ol :last-child:after /*תפריט פרורי לחם ריק בסוף*/ {
+    content: "";
+}
+
+
+.Video /*מבנה סרטונים*/ {
+    display: inline-block;
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    background-color: #95D2B3;
+}
+
+#ashtanga1 /* מיקום סרטון 1 */ {
+    position: absolute;
+    top: 100px;
+    right: 800px;
+}
+
+#ashtanga2 /* מיקום סרטון 2 */ {
+    position: absolute;
+    top: 400px;
+    right: 800px;
+}
+
+main section {
+    display: inline-block;
+    padding: 20px;
+    width: 600px;
+}
+
+
+#ash_BG {
+    float: left;
+    opacity: 0.4;
+    width: 100%;
+    max-width: 600px;
+    height: 1000px;
+}
+
+
+
+
+ /*כללי*/
+
+h1 {
+    color: #55AD9B;
+    font-family: 'Gveret Levin AlefAlefAlef', Assistant;
+    font-size: 48px;
+}
+
+h2 {
+    color: #95D2B3;
+}
+
+#content {
+    position: relative;
+    display: inline-block;
+    padding-right: 20px;
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: #55AD9B;
+    font-weight: bold;
+}
+
+.notActiv {
+    cursor: not-allowed;
+    color: gray;
+}
+/*כללי*/
+
+
+
+/*אודות*/
+
+#BGabout { /*רקע*/
+    position: absolute;
+    width: 100%;
+    max-width: 1280px;
+    height: 700px;
+}
+#zmanYoga {
+    text-align: center;
+}
+
+
+
+/*צור קשר*/
+
+label {
+    font-weight: bold;
+}
+
+#myTextArea {
+    width: 250px;
+    height: 100px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+#contactForm {
+    width: 600px;
+    height: 350px;
+    padding: 20px;
+    position: absolute;
+    margin-top: 50px;
+    margin-right: 600px;
+}
+
+    form div {
+        display: inline-block;
+        float: right;
+        position: relative;
+        width: 250px;
+    }
+
+#mainContact {
+    position: absolute;
+    margin-right: 100px;
+    margin-top: 100px;
+
+}
+#contacttext {
+    position: absolute;
+}
+
+#platforms {
+    position: relative;
+    margin-top: 290px;
+    text-align: center;
+    border: solid;
+    border-width: 5px;
+    border-color: #B7EADB;
+    padding: 10px;
+}
+
+#contactBG {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    max-width: 1280px;
+}
+
+
+
+
+
+
+
+/*philosophy*/
+main {
+    direction: rtl;
+    text-align: center;
+}
+
+#flipCardsFirstLine, #flipCardsSecondLine {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flip-box {
+    background-color: transparent;
+    width: 230px;
+    height: 130px;
+    perspective: 1000px;
+    margin: 10px; 
+}
+
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.2s;
+    transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+    transform: rotateX(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-box-front {
+    background-color: #97DBCB;
+    color: black;
+    font-family: 'Assistant', sans-serif;
+}
+
+.flip-box-back {
+    background-color: #55AD9B;
+    color: white;
+    transform: rotateX(180deg);
+    font-family: 'Assistant', sans-serif;
+}
+
+#books {
+    display: inline-block;
+    width: 100%;
+}
+
+.resizeImage {
+    width: 200px;
+    height: 250px;
+    margin: 25px;
+    display: inline-block;
+}
+
+#BGphil {
+    position: absolute;
+    width: 100%;
+    max-width: 1280px;
+    height:auto;
+}
+
+/*siteMap*/
+tr {
+    text-align: center;
+}
+
+th {
+    width: 115px;
+}
+
+li {
+    list-style-type:none;
+}
+
+td, th {
+    padding: 5px !important;
+     text-align: center;
+}
+
+/*טופס הרכבת חבילה אישית*/
+
+body {
+    font-family: 'Assistant', sans-serif;
+    background-color: #F1F8E8;
+    color: #333;
+    direction: rtl;
+    text-align: right;
+    padding: 20px;
+    margin: 0;
+}
+
+/* הגדרות הטופס */
+#purchaseForm {
+    background-color: #D8EFD3;
+    border: 2px solid #95D2B3;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 300px;
+    right: 100px;
+}
+
+/* עיצוב כותרת h1 */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+fieldset {
+    border: none;
+    margin: 15px 0;
+}
+
+legend {
+    font-size: 1.3em;
+    color: #55AD9B;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-left: 5px;
+}
+
+/* כפתור */
+button {
+    background-color: #55AD9B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    width: 100%;
+    max-width: 150px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+    button:hover {
+        background-color: #95D2B3;
+        transform: translateY(-2px);
+    }
+
+    button:disabled {
+        background-color: #d3d3d3;
+        cursor: not-allowed;
+    }
+
+/* סיכום ההזמנה  */
+#summary {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #F1F8E8;
+    border: 1px solid #95D2B3;
+    border-radius: 5px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* עיצוב תמונות */
+coursesImage, toolsImages {
+    transition: opacity 0.5s ease;
+    width: 100px;
+    height: auto;
+    margin: 10px 0;
+}
+
+#imageSection {
+    width: 40%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 2px solid #d8efd3; /* Border color */
+    text-align: center;
+    position: absolute;
+    top: 300px;
+    right: 600px;
+}
+
+.coursesImage {
+    display: none;
+}
+
+.selectedCourseImage {
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #95D2B3;
+    border-radius: 10px;
+    width: 100px;
+    height: auto;
+}
+
+.toolsImages {
+    opacity: 0.2;
+    width: 80px;
+    margin: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.selectedToolsImages {
+    opacity: 1;
+    border: 1px solid #95D2B3;
+}
+
+/* עיצוב מיכל תמונה */
+.imageContainer {
+    border: 2px solid #95D2B3;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.opening-paragraph {
+    background-color: #F1F8E8;
+    border: 1px solid #95D2B3;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    max-width: 500px;
+    margin: 20px auto;
+}

@@ -1,0 +1,145 @@
+﻿
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8" />
+    <title>יוגי טיים - צור קשר</title>
+    <meta name="description" content="צור קשר" />
+    <meta name="keywords" content="yoga, studio, yoga studio, contact us" />
+    <meta name="author" content="Lior Erez" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <link rel="icon" href="images/favicon.png" />
+
+</head>
+<body>
+    <header id="Header7">
+        <nav id="nav7">
+            <ul>
+                <li> <a href="index.html"> דף הבית</a> </li>
+                <li>
+                    <a href="#">סוגי יוגה</a>
+                    <ul>
+                        <li><a href="ashtanga.html">אשטנגה</a></li>
+                        <li><a href="#" class="notActiv">ויניאסה</a></li>
+                        <li><a href="#" class="notActiv">איינגר</a></li>
+                        <li><a href="#" class="notActiv">האטה</a></li>
+                    </ul>
+                </li>
+                <li> <a href="philosophy.html"> פילוסופיה</a> </li>
+                <li> <a href="#" class="notActiv"> מערכת שעות</a> </li>
+                <li id="store">
+                    <a href="#" class="notActiv"> חנות</a>
+                    <ul>
+                        <li><a href="#" class="notActiv">מזרוני יוגה</a></li>
+                        <li><a href="#" class="notActiv">גופיות</a></li>
+                        <li><a href="#" class="notActiv">מכנסיים</a></li>
+                        <li><a href="#" class="notActiv">עזרים ליוגה</a></li>
+                        <li><a href="#" class="notActiv">הקורסים</a></li>
+                        <li><a href="store.html">הרכבת חבילה אישית</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <img id="contactBG" src="images/BG.png" title="Mandala Background" />
+    <div id="container">
+        <main id="mainContact">
+            <div id="contacttext">
+
+                <h1>דברו איתנו!</h1>
+                <nav>
+                    <ol>
+                        <li><a href="index.html">דף הבית</a></li>
+                        <li><a href="contactUs.html">צור קשר</a></li>
+
+                    </ol>
+                </nav>
+                <span>אנחנו בסטודיו יוגי טיים נשמח לענות על כל השאלות שלכם.ן!</span>
+                <h2>ניתן להשאיר פרטים ונחזור אליכם בהקדם</h2>
+            </div>
+
+            <form id="contactForm">
+                <div>
+                    <div>
+                        <label for="firstname">
+                            שם פרטי: <br />
+                            <input type="text" id="firstname" placeholder="שדה חובה" required />
+                        </label>
+                    </div> <br />
+                    <div>
+                        <label for="lastname">
+                            שם משפחה: <br />
+                            <input type="text" id="lastname" placeholder="שדה חובה" required />
+                        </label>
+                    </div> <br />
+                    <div>
+                        <label for="email">
+                            אימייל: <br />
+                            <input type="email" id="email" placeholder="שדה חובה" required />
+                        </label>
+                    </div> <br />
+                    <div>
+                        <label for="phone">
+                            מספר טלפון <br />
+                            <input type="tel" id="phone" />
+                        </label>
+                    </div> <br />
+
+                    <fieldset>
+                        <legend>מגדר</legend>
+                        <input type="radio" id="male" name="gender" required />
+                        <label for="male">זכר</label> <br />
+                        <input type="radio" id="female" name="gender" required />
+                        <label for="female">נקבה</label> <br />
+                        <input type="radio" id="none" name="gender" required />
+                        <label for="none">מעדיפ.ה לא לענות</label>
+                    </fieldset> <br />
+                </div>
+                <div>
+                    <div>
+                        <label for="reason">
+                            סיבת הפנייה:
+                        </label>
+                    </div>
+                    <select id="reason" required>
+                        <option value="" disabled selected hidden>בחר סיבה</option>
+                        <option value="1">אני רוצה להירשם לסטודיו</option>
+                        <option value="2">אני רוצה שיעור ניסיון</option>
+                        <option value="3">אני רוצה לשמוע עוד פרטים</option>
+                        <option value="4">אני רוצה לעבוד אצלכם</option>
+                        <option value="5">אחר</option>
+                    </select> <br /> <br />
+                    <div>
+                        <label>
+                            משהו נוסף שתרצו שנדע?
+                        </label>
+                    </div>
+                    <textarea id="myTextArea" placeholder="שאלות/מחשבות/התלבטויות נוספות..."></textarea>
+                    <br />  <br />
+                    <div>
+                        <input type="submit" id="submit" value="שליחה" />
+                    </div>
+                </div>
+            </form>
+
+
+            <div id="platforms">
+                אפשר ליצור איתנו קשר גם בכל הפלטפורמות:
+                <ul>
+                    <li>בטלפון: 05022244</li>
+                    <li>בווטסאפ: 050222441</li>
+                    <li>באינסטגרם: <a>@yogi_time</a></li>
+                </ul>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
